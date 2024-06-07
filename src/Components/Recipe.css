@@ -1,0 +1,92 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+ }
+
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(95, 37, 37);
+  margin-right: 26%;
+ 
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.search-container img {
+  margin-left: 1%;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 90px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  outline: none;
+ 
+}
+
+.search-button {
+  background: #1c68b0bf;
+  border: none;
+  padding: 10px ;
+  color: white;
+  font-weight: 800;
+  margin-right: 6%;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.heading{
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border-radius: 5px 60px;
+  background-color:#88b4dc;
+  color: white;
+  width:20%;
+ 
+}
+.review {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  margin-bottom: 1%;
+  border-radius: 5px 60px;
+  background-color:#88b4dc;
+  color: white;
+  width:30%;
+}

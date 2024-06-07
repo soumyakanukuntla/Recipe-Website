@@ -1,0 +1,27 @@
+
+.footer{
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    padding:20px;
+    background-color:#88b4dc;
+    color:white;
+    font-family: arial;
+   }
+   .brand{
+     font-size:25px;
+     font-weight: bold;
+     margin-bottom:20px;
+   }
+   .footer-title{
+     font-size:25px;
+     font-weight:bold;
+     margin-bottom:20px;
+   }
+   .footer-title~span{
+     display: block;
+     margin-bottom:20px;
+   }
+   aside span{
+     margin-right:15px;
+    font-size:30px;
+   }
